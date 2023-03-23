@@ -5,3 +5,4 @@ import './tasks/array-diff.js';
 import './tasks/row-weights.js';
 import './tasks/scrolling-text.js';
 import './tasks/write-number-in-expanded-form.js';
+import './tasks/is-every-value-in-the-array-an-array.js';
