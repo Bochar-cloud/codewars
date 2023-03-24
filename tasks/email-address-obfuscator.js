@@ -26,5 +26,3 @@ const obfuscate2 = (email) => {
 
     return email.replace(atReg, ' [at] ').replace(dotReg, ' [dot] ');
 };
-
-console.log(obfuscate2('Co@de_warrior@foo.ac.uk'));
