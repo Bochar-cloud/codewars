@@ -8,3 +8,4 @@ import './tasks/write-number-in-expanded-form.js';
 import './tasks/is-every-value-in-the-array-an-array.js';
 import './tasks/make-a-box.js';
 import './tasks/email-address-obfuscator.js';
+import './tasks/perfect-number-verifier.js';
