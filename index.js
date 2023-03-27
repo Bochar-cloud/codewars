@@ -9,3 +9,4 @@ import './tasks/is-every-value-in-the-array-an-array.js';
 import './tasks/make-a-box.js';
 import './tasks/email-address-obfuscator.js';
 import './tasks/perfect-number-verifier.js';
+import './tasks/numbers-of-letters-of-numbers.js';

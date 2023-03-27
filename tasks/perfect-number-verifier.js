@@ -16,5 +16,3 @@ const isPerfect = (n) => {
 
     return sum === n && n > 1;
 };
-
-console.log(isPerfect(23459879034));
