@@ -11,3 +11,4 @@ import './tasks/email-address-obfuscator.js';
 import './tasks/perfect-number-verifier.js';
 import './tasks/numbers-of-letters-of-numbers.js';
 import './tasks/count-the-smiley-faces.js';
+import './tasks/rgb-to-hex-conversion.js';
