@@ -6,41 +6,29 @@
 
 // You have to write a method, that return the length of the missing array.
 
-const sortByArrLength = (a, b) => {
-    if (!a || !b) {
-        return;
-    }
-
-    return a.length - b.length
-};
-
 const getLengthOfMissingArray = (arrayOfArrays) => {
-    let result = 0;
-
     if (!arrayOfArrays) {
-        return result;
+        return 0;
     }
 
-    const sortedArr = arrayOfArrays.sort(sortByArrLength);
+    const lengths = arrayOfArrays.map(arr => arr && arr.length).sort((a, b) => a - b);
 
-    for (let i = 0; i < sortedArr.length; i++) {
-        if (!sortedArr[i]) {
-            break;
+    if (lengths.includes(0)) {
+        return 0;
+    }
+
+    for (let i = 0; i < lengths.length; i++) {
+        if (!lengths[i]) {
+            return 0;
         }
 
-        if (!sortedArr[i].length) {
-            break;
-        }
+        const current = lengths[i];
+        const next = lengths[i + 1];
 
-        const currentArr = sortedArr[i];
-        const nextArr = sortedArr[i + 1];
-        const len = currentArr.length;
-
-        if (nextArr && !(len + 1 === nextArr.length)) {
-            result += len + 1;
-            break;
+        if (next && !(current + 1 === next)) {
+            return current + 1;
         }
     }
 
-    return result;
+    return 0;
 };
