@@ -14,3 +14,4 @@ import './tasks/count-the-smiley-faces.js';
 import './tasks/rgb-to-hex-conversion.js';
 import './tasks/length-of-missing-array.js';
 import './tasks/indexof-array-in-array.js';
+import './tasks/smallest-value-of-an-array.js';
