@@ -17,3 +17,4 @@ import './tasks/indexof-array-in-array.js';
 import './tasks/smallest-value-of-an-array.js';
 import './tasks/playing-with-digits.js';
 import './tasks/vowel-count.js';
+import './tasks/build-a-square.js';
