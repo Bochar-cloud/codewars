@@ -1,4 +1,4 @@
-https://www.codewars.com/kata/5783ef69202c0ee4cb000265
+// https://www.codewars.com/kata/5783ef69202c0ee4cb000265
 
 // JavaScript's indexOf does not work with arrays as input. This is because [1,2] === [1,2] will return false in JavaScript. Many other languages have similar quirks.
 
@@ -11,7 +11,7 @@ https://www.codewars.com/kata/5783ef69202c0ee4cb000265
 // query should be an array of length two.
 // If the inputs are not valid you should throw an Error.
 
-const searchArray = function (arrayToSearch, query) {
+const searchArray = (arrayToSearch, query) => {
     if (query.length !== 2) {
         throw new Error('Error');
     }
@@ -21,8 +21,8 @@ const searchArray = function (arrayToSearch, query) {
             throw new Error('Error');
         }
 
-        return String(item) === String(query)
+        return String(item) === String(query);
     });
 
     return index;
-}
+};
