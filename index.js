@@ -20,3 +20,4 @@ import './tasks/vowel-count.js';
 import './tasks/build-a-square.js';
 import './tasks/proof-read.js';
 import './tasks/formatiwords-into-a-sentence.js';
+import './tasks/find-the-odd-int.js';
