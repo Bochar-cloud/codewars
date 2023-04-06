@@ -5,15 +5,16 @@
 // Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
 
 const digitalRoot = (n) => {
-    let count = n;
-
-    while (String(count).length !== 1) {
-        const nums = String(count).split('');
-
-        count = nums.reduce((res, num) => {
-            return res + Number(num);
-        }, 0);
+    if (n < 10) {
+        return n;
     }
 
-    return count;
+    let count = n;
+    const nums = String(count).split('');
+
+    count = nums.reduce((res, num) => {
+        return res + Number(num);
+    }, 0);
+
+    return digitalRoot(count);
 };
