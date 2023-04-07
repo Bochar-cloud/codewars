@@ -23,3 +23,4 @@ import './tasks/formatiwords-into-a-sentence.js';
 import './tasks/find-the-odd-int.js';
 import './tasks/sum-of-digits.js';
 import './tasks/random-css-color.js';
+import './tasks/get-object-field.js';
