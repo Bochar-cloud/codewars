@@ -21,4 +21,5 @@ import './tasks/build-a-square.js';
 import './tasks/proof-read.js';
 import './tasks/formatiwords-into-a-sentence.js';
 import './tasks/find-the-odd-int.js';
-import './tasks/sum-of-igits.js';
+import './tasks/sum-of-digits.js';
+import './tasks/random-css-color.js';
