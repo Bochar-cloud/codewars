@@ -9,7 +9,7 @@ const get = (obj, path) => {
         return undefined;
     }
 
-    const slicedPath = String(pathKeys.slice(1).join('.'));
+    const slicedPath = pathKeys.slice(1).join('.');
 
     return get(obj[pathKeys[0]], slicedPath);
 };
