@@ -25,3 +25,4 @@ import './tasks/sum-of-digits.js';
 import './tasks/random-css-color.js';
 import './tasks/get-object-field.js';
 import './tasks/sum-o-positive.js';
+import './tasks/moving-zeros-to-the-end.js';
